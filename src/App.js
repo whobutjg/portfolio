@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/jsx-no-target-blank */
+import "./App.css";
+import NavBar from "./components/NavBar";
+import gaLogo from "./images/dlf.pt-25-png-2777875.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <div>
+        <div className="about">
+          <h3>
+            I'm Joseph 'Joey' Giardina, a{" "}
+            <a
+              href="https://github.com/whobutjg"
+              alt="github"
+              target="_blank"
+              className="github"
+            >
+              Full-Stack Software Engineer
+            </a>{" "}
+            based in the NYC metropolitan area. Want to connect, learn more
+            about me, or see how we can collaborate? Let's Talk.{" "}
+          </h3>
+        </div>
+        <div className="ga-logo">
+          <p>Currently:</p>
+          <img src={gaLogo} alt="generalassembly" className="ga" />
+        </div>
+        <div className="work">
+          <p><strong></strong>Featured Projects:</p>
+
+        </div>
+
+        <div className="contact"></div>
+      </div>
+    </>
   );
 }
 
