@@ -2,6 +2,8 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import gaLogo from "./images/dlf.pt-25-png-2777875.png";
+import cheqmate from "./images/cheqmate_home.png";
+import fido from "./images/fidos_hotel.png";
 
 function App() {
   return (
@@ -24,12 +26,29 @@ function App() {
           </h3>
         </div>
         <div className="ga-logo">
-          <p>Currently:</p>
-          <img src={gaLogo} alt="generalassembly" className="ga" />
+          <p>Previous:</p>
+          <a href="https://generalassemb.ly" target="_blank">
+            <img src={gaLogo} alt="generalassembly" className="ga" />
+          </a>
         </div>
         <div className="work">
-          <p><strong></strong>Featured Projects:</p>
-
+          <p>
+            <strong></strong>Featured Projects:
+          </p>
+          <div className="project-logos">
+            <a
+              href="https://github.com/whobutjg/project-one-cheqmate"
+              target="_blank"
+            >
+              <img src={cheqmate} alt="cheqmate" className="cheqmate" />
+            </a>
+            <a
+              href="https://github.com/whobutjg/project-one-cheqmate"
+              target="_blank"
+            >
+              <img src={fido} alt="fidoshotel" className="fidos-hotel" />
+            </a>
+          </div>
         </div>
 
         <div className="contact"></div>

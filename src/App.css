@@ -2,6 +2,7 @@ body {
   background-color: #232f3e;
   color: white;
   font-family: 'Montserrat', sans-serif;
+  position: fixed;
 }
 
 .navbar {
@@ -11,6 +12,8 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .about {
@@ -53,4 +56,25 @@ a:hover {
 
 .github {
   color: #007eb9;
+}
+
+.work {
+  padding-top: 50px;
+  padding-left: 15px;
+  justify-content: space-evenly;
+}
+
+.cheqmate {
+  width: 450px;
+  height: 350px;
+}
+
+.fidos-hotel {
+  width: 450px;
+  height: 350px;
+}
+
+.project-logos {
+  display: flex;
+  justify-content: space-evenly;
 }
