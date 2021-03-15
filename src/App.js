@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import gaLogo from "./images/dlf.pt-25-png-2777875.png";
 import cheqmate from "./images/cheqmate_home.png";
 import fido from "./images/fidos_hotel.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -42,10 +43,7 @@ function App() {
             >
               <img src={cheqmate} alt="cheqmate" className="cheqmate" />
             </a>
-            <a
-              href="https://github.com/whobutjg/project-one-cheqmate"
-              target="_blank"
-            >
+            <a href="https://github.com/whobutjg/fidos-hotel" target="_blank">
               <img src={fido} alt="fidoshotel" className="fidos-hotel" />
             </a>
           </div>
@@ -53,6 +51,7 @@ function App() {
 
         <div className="contact"></div>
       </div>
+      <Footer />
     </>
   );
 }
