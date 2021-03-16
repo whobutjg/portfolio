@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/whobutjg/portfolio/static/css/main.9727a3c7.chunk.css",
-    "main.js": "/whobutjg/portfolio/static/js/main.527ff39b.chunk.js",
-    "main.js.map": "/whobutjg/portfolio/static/js/main.527ff39b.chunk.js.map",
-    "runtime-main.js": "/whobutjg/portfolio/static/js/runtime-main.0540da55.js",
-    "runtime-main.js.map": "/whobutjg/portfolio/static/js/runtime-main.0540da55.js.map",
-    "static/js/2.c88d08c8.chunk.js": "/whobutjg/portfolio/static/js/2.c88d08c8.chunk.js",
-    "static/js/2.c88d08c8.chunk.js.map": "/whobutjg/portfolio/static/js/2.c88d08c8.chunk.js.map",
-    "index.html": "/whobutjg/portfolio/index.html",
-    "static/css/main.9727a3c7.chunk.css.map": "/whobutjg/portfolio/static/css/main.9727a3c7.chunk.css.map",
-    "static/js/2.c88d08c8.chunk.js.LICENSE.txt": "/whobutjg/portfolio/static/js/2.c88d08c8.chunk.js.LICENSE.txt",
-    "static/media/cheqmate_home.39df2980.png": "/whobutjg/portfolio/static/media/cheqmate_home.39df2980.png",
-    "static/media/dlf.pt-25-png-2777875.1c976b79.png": "/whobutjg/portfolio/static/media/dlf.pt-25-png-2777875.1c976b79.png",
-    "static/media/fidos_hotel.4fde4ee1.png": "/whobutjg/portfolio/static/media/fidos_hotel.4fde4ee1.png",
-    "static/media/jglogo.a68a45f5.jpeg": "/whobutjg/portfolio/static/media/jglogo.a68a45f5.jpeg"
+    "main.css": "/portfolio/static/css/main.9727a3c7.chunk.css",
+    "main.js": "/portfolio/static/js/main.527ff39b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.527ff39b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.71c53a7c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.71c53a7c.js.map",
+    "static/js/2.c88d08c8.chunk.js": "/portfolio/static/js/2.c88d08c8.chunk.js",
+    "static/js/2.c88d08c8.chunk.js.map": "/portfolio/static/js/2.c88d08c8.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.9727a3c7.chunk.css.map": "/portfolio/static/css/main.9727a3c7.chunk.css.map",
+    "static/js/2.c88d08c8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c88d08c8.chunk.js.LICENSE.txt",
+    "static/media/cheqmate_home.39df2980.png": "/portfolio/static/media/cheqmate_home.39df2980.png",
+    "static/media/dlf.pt-25-png-2777875.1c976b79.png": "/portfolio/static/media/dlf.pt-25-png-2777875.1c976b79.png",
+    "static/media/fidos_hotel.4fde4ee1.png": "/portfolio/static/media/fidos_hotel.4fde4ee1.png",
+    "static/media/jglogo.a68a45f5.jpeg": "/portfolio/static/media/jglogo.a68a45f5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0540da55.js",
+    "static/js/runtime-main.71c53a7c.js",
     "static/js/2.c88d08c8.chunk.js",
     "static/css/main.9727a3c7.chunk.css",
     "static/js/main.527ff39b.chunk.js"
