@@ -1,56 +1,45 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "./App.css";
 import NavBar from "./components/NavBar";
-import gaLogo from "./images/dlf.pt-25-png-2777875.png";
-import cheqmate from "./images/cheqmate_home.png";
-import fido from "./images/fidos_hotel.png";
 import Footer from "./components/Footer";
+import ReactTypingEffect from 'react-typing-effect';
+
+
 
 function App() {
+  const typingEffect =  <ReactTypingEffect
+  text={["Full-Stack Software Engineer", "Team-Player", "Self-Starter with an Entrepreneurial Spirit", "Compassionate Human Being"]}
+  cursorRenderer={cursor => <p>{cursor}</p>}
+  speed={100}
+  typingDelay={1250}
+  eraseSpeed={100}
+  eraseDelay={1000}
+  displayTextRenderer={(text, i) => {
+    return (
+      <p>
+        {text.split('').map((char, i) => {
+          const key = `${i}`;
+          return (
+            <span
+              key={key}
+              style={i%2 === 0 ? { color: 'black'} : {}}
+            >{char}</span>
+          );
+        })}
+      </p>
+    );
+  }}        
+/>
+ 
   return (
     <>
       <NavBar />
-      <div>
-        <div className="about">
-          <h3>
-            I'm Joseph 'Joey' Giardina, a{" "}
-            <a
-              href="https://github.com/whobutjg"
-              alt="github"
-              target="_blank"
-              className="github"
-            >
-              Full-Stack Software Engineer
-            </a>{" "}
-            based in the NYC metropolitan area. Want to connect, learn more
-            about me, or see how we can collaborate? Let's Talk.{" "}
-          </h3>
+        <div id="about">
+          <p>Hey, there!</p>
+          <p>I'm Joseph Giardina, but everyone calls me 'Joey'.</p>
+          <p>I'm a {typingEffect}from New Jersey now residing in sunny South Florida.</p>
+          <p>For collaboration, consultation, or to connect, feel free to use the 'contact me' form or connect via LinkedIn.</p>
         </div>
-        <div className="ga-logo">
-          <p>Previous:</p>
-          <a href="https://generalassemb.ly" target="_blank">
-            <img src={gaLogo} alt="generalassembly" className="ga" />
-          </a>
-        </div>
-        <div className="work">
-          <p>
-            <strong></strong>Featured Projects:
-          </p>
-          <div className="project-logos">
-            <a
-              href="https://github.com/whobutjg/project-one-cheqmate"
-              target="_blank"
-            >
-              <img src={cheqmate} alt="cheqmate" className="cheqmate" />
-            </a>
-            <a href="https://github.com/whobutjg/fidos-hotel" target="_blank">
-              <img src={fido} alt="fidoshotel" className="fidos-hotel" />
-            </a>
-          </div>
-        </div>
-
-        <div className="contact"></div>
-      </div>
       <Footer />
     </>
   );
