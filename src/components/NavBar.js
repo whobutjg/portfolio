@@ -13,7 +13,7 @@ const NavBar = () => {
           <Link to="/resume">Resume</Link>
         </h3>
         <h3>
-          <a href="https://github.com/whobutjg">Projects</a>
+          <a href="https://github.com/whobutjg" target="_blank" rel="noreferrer">Projects</a>
         </h3>
     </div>
   );

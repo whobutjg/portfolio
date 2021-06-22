@@ -2,7 +2,7 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 
 const typingEffect =  <ReactTypingEffect
-  text={["Full-Stack Software Engineer", "Team-Player", "Self-Starter with an Entrepreneurial Spirit", "Software Engineer", "Frontend Engineer"]}
+  text={["Full-Stack Software Engineer", "Team-Player", "Self-Starter with an Entrepreneurial Spirit", "Software Engineer", "Frontend Engineer", "Aspiring Solidity Engineer"]}
   cursorRenderer={cursor => <p>{cursor}</p>}
   speed={100}
   typingDelay={1250}
@@ -10,6 +10,7 @@ const typingEffect =  <ReactTypingEffect
   eraseDelay={1000}
   displayTextRenderer={(text, i) => {
     return (
+      <div className="text-split">
       <p>
         {text.split('').map((char, i) => {
           const key = `${i}`;
@@ -21,6 +22,7 @@ const typingEffect =  <ReactTypingEffect
           );
         })}
       </p>
+      </div>
     );
   }}        
 />

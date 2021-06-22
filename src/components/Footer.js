@@ -1,14 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const footer = () => {
   return (
     <div className="footer">
-      <a href="https://twitter.com/whobutjg" target="_blank">
-        <FontAwesomeIcon icon={faTwitter} size="3x" />
+      <a href="https://github.com/whobutjg" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faGithub} size="3x" />
       </a>
-      <a href="https://www.linkedin.com/in/josephggiardina/" target="_blank">
+      <a href="https://www.linkedin.com/in/josephggiardina/" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="3x" />
       </a>
     </div>
